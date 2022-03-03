@@ -20,6 +20,14 @@ const App = () => {
   const handleClose = () => {
     setOpen(false);
   };
+  const handleOpen1 = () => {
+    setOpen1(true);
+  };
+
+  // function to handle modal close
+  const handleClose1 = () => {
+    setOpen1(false);
+  };
 
   return (
     <div className="App">
@@ -32,8 +40,8 @@ const App = () => {
           </Typography>
           <Button color="inherit" onClick={handleOpen} >GET STARTED</Button>
           <ModalDialog open={open} handleClose={handleClose} />
-          <Button color="inherit" onClick={handleOpen}>LOGIN</Button>
-          <ModalDialog1 open={open1} handleClose={handleClose} />
+          <Button color="inherit" onClick={handleOpen1}>LOGIN</Button>
+          <ModalDialog1 open={open1} handleClose={handleClose1} />
         </Toolbar>
       </AppBar>
     </Box>
