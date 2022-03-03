@@ -10,7 +10,7 @@ import ModalDialog1 from './ModalDialog1';
 const App = () => {
   // declare a new state variable for modal open
   const [open, setOpen] = useState(false);
-
+  const [open1, setOpen1] = useState(false);
   // function to handle modal open
   const handleOpen = () => {
     setOpen(true);
@@ -18,14 +18,6 @@ const App = () => {
 
   // function to handle modal close
   const handleClose = () => {
-    setOpen(false);
-  };
-  const handleOpen1 = () => {
-    setOpen(true);
-  };
-
-  // function to handle modal close
-  const handleClose1 = () => {
     setOpen(false);
   };
 
@@ -40,8 +32,8 @@ const App = () => {
           </Typography>
           <Button color="inherit" onClick={handleOpen} >GET STARTED</Button>
           <ModalDialog open={open} handleClose={handleClose} />
-          <Button color="inherit" onClick={handleOpen1}>LOGIN</Button>
-          <ModalDialog1 open={open} handleClose={handleClose1} />
+          <Button color="inherit" onClick={handleOpen}>LOGIN</Button>
+          <ModalDialog1 open={open1} handleClose={handleClose} />
         </Toolbar>
       </AppBar>
     </Box>
