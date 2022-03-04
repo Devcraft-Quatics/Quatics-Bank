@@ -17,8 +17,13 @@
     },
     {
       "name": "MEC",
-      "balance": 100000,
+      "balance": 50000,
       "id": 4
+    },
+    {
+      "name": "Jagannath",
+      "balance": 100000,
+      "id": 5
     }
   ],
   "transactions": [
@@ -37,6 +42,22 @@
       "credit": 2000,
       "accountId": 1,
       "id": 2
+    },
+    {
+      "date": "2022-03-04T13:43:42.758Z",
+      "description": "Transfer to Jagannath",
+      "debit": 50000,
+      "credit": null,
+      "accountId": 4,
+      "id": 3
+    },
+    {
+      "date": "2022-03-04T13:43:42.759Z",
+      "description": "Transfer from MEC",
+      "debit": null,
+      "credit": 50000,
+      "accountId": 5,
+      "id": 4
     }
   ]
 }
