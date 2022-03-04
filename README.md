@@ -1,4 +1,4 @@
-# React Bank
+# Quatics Bank by Team Quatics
 
 A demo bank application written with [react](https://facebook.github.io/react/).
 
