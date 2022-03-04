@@ -102,9 +102,6 @@ const validateCreateAccountRequest = (name, openingBalance, existingAccounts) =>
         } else if (openingBalance < 0.01) {
             result.isValid = false;
             result.openingBalanceValidationMessage = `Opening Balance cannot be less than ${formatMoney(0.01)}`
-        } else if (openingBalance > 1000.00) {
-            result.isValid = false;
-            result.openingBalanceValidationMessage = `Jeez, I know this is a fake app, but we can't give out more than ${formatMoney(1000.00)}`
         }
     }
 

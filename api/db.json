@@ -3,67 +3,40 @@
     {
       "id": 1,
       "name": "Current Account",
-      "balance": 200
+      "balance": 2200
     },
     {
       "id": 2,
       "name": "Savings",
-      "balance": 75
+      "balance": 0
     },
     {
-      "name": "J",
-      "balance": 200,
+      "name": "Hi",
+      "balance": 98000,
       "id": 3
+    },
+    {
+      "name": "MEC",
+      "balance": 100000,
+      "id": 4
     }
   ],
   "transactions": [
     {
-      "id": 1,
-      "date": "2017-01-30T19:40:00.000Z",
-      "description": "Costa",
-      "debit": 4.59,
+      "date": "2022-03-04T13:13:19.042Z",
+      "description": "Transfer to Current Account",
+      "debit": 2000,
       "credit": null,
-      "accountId": 1
-    },
-    {
-      "id": 2,
-      "date": "2017-01-29T00:00:00.000Z",
-      "description": "Payment Received (Wage)",
-      "debit": null,
-      "credit": 0.01,
-      "accountId": 1
-    },
-    {
-      "date": "2017-02-15T22:22:45.488Z",
-      "description": "Transfer to Savings",
-      "debit": 50,
-      "credit": null,
-      "accountId": 1,
-      "id": 3
-    },
-    {
-      "date": "2017-02-15T22:22:45.500Z",
-      "description": "Transfer from Current Account",
-      "debit": null,
-      "credit": 50,
-      "accountId": 2,
-      "id": 4
-    },
-    {
-      "date": "2022-03-04T12:16:17.999Z",
-      "description": "Transfer to J",
-      "debit": 100,
-      "credit": null,
-      "accountId": 2,
-      "id": 5
-    },
-    {
-      "date": "2022-03-04T12:16:18.002Z",
-      "description": "Transfer from Savings",
-      "debit": null,
-      "credit": 100,
       "accountId": 3,
-      "id": 6
+      "id": 1
+    },
+    {
+      "date": "2022-03-04T13:13:19.045Z",
+      "description": "Transfer from Hi",
+      "debit": null,
+      "credit": 2000,
+      "accountId": 1,
+      "id": 2
     }
   ]
 }

@@ -20,16 +20,12 @@ class Login extends Component {
     render() {
         const { usernameValidationMessage, passwordValidationMessage } = this.props
         return (
-            <div>
+            <div className='Login'>
                 <h3>Login</h3>
-
-                <h4>
-                    Enter your username and password <span style={{color: 'grey', fontSize: 'smaller'}}>(anything will do, it's not real)</span>
-                </h4>
-                
                 <div>
                     <TextField
                         hintText="Username"
+                        floatingLabelText="Username"
                         ref="username"
                         errorText={usernameValidationMessage}
                     />

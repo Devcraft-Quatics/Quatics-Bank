@@ -8,8 +8,8 @@
     "api": "cd api && npm start",
     "test": "cd ui && npm test"
   },
-  "author": "Mark Pritchett",
-  "license": "ISC",
+  "author": "Quatics",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^3.1.0"
   }
