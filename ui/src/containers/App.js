@@ -55,7 +55,7 @@ class App extends Component {
           title={<span style={styles.title}>Quatics Bank</span>}
           onTitleTouchTap={() => this.goHome()}
           showMenuIconButton={false}
-          iconElementRight={<Logout visible={authenticated} onClick={onLogoutClick} />}
+          iconElementRight={<Logout visible={authenticated} onClick={onLogoutClick} backgroundColor="red" />}
         />
         {this.renderErrorMessage()}
         {children}
