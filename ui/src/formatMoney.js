@@ -1,7 +1,7 @@
 const formatMoney = (amount) => {
     let formatter = new Intl.NumberFormat('en-GB', {
         style: 'currency',
-        currency: 'GBP',
+        currency: 'INR',
         minimumFractionDigits: 2,
     })
 

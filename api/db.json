@@ -3,61 +3,67 @@
     {
       "id": 1,
       "name": "Current Account",
-      "balance": 2200
+      "balance": 9200
     },
     {
       "id": 2,
       "name": "Savings",
-      "balance": 0
-    },
-    {
-      "name": "Hi",
-      "balance": 98000,
-      "id": 3
+      "balance": 9000
     },
     {
       "name": "MEC",
-      "balance": 50000,
-      "id": 4
-    },
-    {
-      "name": "Jagannath",
-      "balance": 100000,
-      "id": 5
+      "balance": 4000,
+      "id": 3
     }
   ],
   "transactions": [
     {
-      "date": "2022-03-04T13:13:19.042Z",
-      "description": "Transfer to Current Account",
-      "debit": 2000,
+      "date": "2022-03-05T01:48:28.909Z",
+      "description": "Transfer to Savings",
+      "debit": 1000,
       "credit": null,
-      "accountId": 3,
+      "accountId": 1,
       "id": 1
     },
     {
-      "date": "2022-03-04T13:13:19.045Z",
-      "description": "Transfer from Hi",
+      "date": "2022-03-05T01:48:28.910Z",
+      "description": "Transfer from Current Account",
       "debit": null,
-      "credit": 2000,
-      "accountId": 1,
+      "credit": 1000,
+      "accountId": 2,
       "id": 2
     },
     {
-      "date": "2022-03-04T13:43:42.758Z",
-      "description": "Transfer to Jagannath",
-      "debit": 50000,
+      "date": "2022-03-05T01:49:05.590Z",
+      "description": "Transfer to Savings",
+      "debit": 8000,
       "credit": null,
-      "accountId": 4,
+      "accountId": 3,
       "id": 3
     },
     {
-      "date": "2022-03-04T13:43:42.759Z",
+      "date": "2022-03-05T01:49:05.610Z",
       "description": "Transfer from MEC",
       "debit": null,
-      "credit": 50000,
-      "accountId": 5,
+      "credit": 8000,
+      "accountId": 2,
       "id": 4
+    },
+    {
+      "date": "2022-03-05T01:49:16.083Z",
+      "description": "Transfer to Current Account",
+      "debit": 8000,
+      "credit": null,
+      "accountId": 3,
+      "id": 5
+    },
+    {
+      "date": "2022-03-05T01:49:16.105Z",
+      "description": "Transfer from MEC",
+      "debit": null,
+      "credit": 8000,
+      "accountId": 1,
+      "id": 6
     }
   ]
 }
