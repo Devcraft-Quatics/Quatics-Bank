@@ -3,17 +3,12 @@
     {
       "id": 1,
       "name": "Current Account",
-      "balance": 9200
+      "balance": 12000
     },
     {
       "id": 2,
       "name": "Savings",
-      "balance": 9000
-    },
-    {
-      "name": "MEC",
-      "balance": 4000,
-      "id": 3
+      "balance": 20000
     }
   ],
   "transactions": [
@@ -42,28 +37,12 @@
       "id": 3
     },
     {
-      "date": "2022-03-05T01:49:05.610Z",
-      "description": "Transfer from MEC",
-      "debit": null,
-      "credit": 8000,
-      "accountId": 2,
-      "id": 4
-    },
-    {
       "date": "2022-03-05T01:49:16.083Z",
       "description": "Transfer to Current Account",
       "debit": 8000,
       "credit": null,
       "accountId": 3,
       "id": 5
-    },
-    {
-      "date": "2022-03-05T01:49:16.105Z",
-      "description": "Transfer from MEC",
-      "debit": null,
-      "credit": 8000,
-      "accountId": 1,
-      "id": 6
     }
   ]
 }
