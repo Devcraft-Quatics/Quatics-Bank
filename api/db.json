@@ -8,41 +8,15 @@
     {
       "id": 2,
       "name": "Savings",
-      "balance": 20000
+      "balance": 11000
+    },
+    {
+      "name": "x",
+      "balance": 9045,
+      "id": 3
     }
   ],
   "transactions": [
-    {
-      "date": "2022-03-05T01:48:28.909Z",
-      "description": "Transfer to Savings",
-      "debit": 1000,
-      "credit": null,
-      "accountId": 1,
-      "id": 1
-    },
-    {
-      "date": "2022-03-05T01:48:28.910Z",
-      "description": "Transfer from Current Account",
-      "debit": null,
-      "credit": 1000,
-      "accountId": 2,
-      "id": 2
-    },
-    {
-      "date": "2022-03-05T01:49:05.590Z",
-      "description": "Transfer to Savings",
-      "debit": 8000,
-      "credit": null,
-      "accountId": 3,
-      "id": 3
-    },
-    {
-      "date": "2022-03-05T01:49:16.083Z",
-      "description": "Transfer to Current Account",
-      "debit": 8000,
-      "credit": null,
-      "accountId": 3,
-      "id": 5
-    }
+    
   ]
 }
