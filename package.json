@@ -1,5 +1,5 @@
 {
-  "name": "react-bank",
+  "name": "quatics-bank",
   "version": "0.1.0",
   "scripts": {
     "setup": "./setup.sh",

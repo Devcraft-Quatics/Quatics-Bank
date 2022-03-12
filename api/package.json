@@ -4,8 +4,8 @@
   "scripts": {
     "start": "json-server --watch db.json --port 3001"
   },
-  "author": "Mark Pritchett",
-  "license": "ISC",
+  "author": "Quatics",
+  "license": "MIT",
   "devDependencies": {
     "json-server": "^0.9.4"
   }
