@@ -29,7 +29,8 @@ API project uses a fake REST API thanks to [json-server](https://github.com/typi
 ![Create new Account](https://raw.githubusercontent.com/Devcraft-Quatics/Quatics-Bank/master/img/3.png)
 ![Transfer Funds](https://raw.githubusercontent.com/Devcraft-Quatics/Quatics-Bank/master/img/4.png)
 
-## 🔧 Project Demonstration:
+## 🔧 Project Demonstration Video:
+Click on the image to play.
 [![Demonstration](https://img.youtube.com/vi/_UjzFWoHER8/0.jpg)](https://www.youtube.com/watch?v=_UjzFWoHER8)
 
 ## Steps to run the project
