@@ -24,8 +24,13 @@ API project uses a fake REST API thanks to [json-server](https://github.com/typi
 4. [Krishnaprasad K](https://github.com/krishnaprasadkpk)
 
 ## 🔧 Project UI:
-![Login](https://github.com/AchyuthMohan/Blockchain-decentragram/blob/master/public/images/Screenshot%20(24).png) 
+![Login](https://raw.githubusercontent.com/Devcraft-Quatics/Quatics-Bank/master/img/1.png) 
+![Accounts](https://raw.githubusercontent.com/Devcraft-Quatics/Quatics-Bank/master/img/2.png)
+![Create new Account](https://raw.githubusercontent.com/Devcraft-Quatics/Quatics-Bank/master/img/3.png)
+![Transfer Funds](https://raw.githubusercontent.com/Devcraft-Quatics/Quatics-Bank/master/img/4.png)
 
+## 🔧 Project Demonstration:
+![Demonstration]()
 ## Steps to run the project
 
 Open a terminal / command prompt and run the ``` setup.sh ``` file to install node packages.
